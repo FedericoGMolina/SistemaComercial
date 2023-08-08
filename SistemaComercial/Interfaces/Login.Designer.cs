@@ -1,5 +1,4 @@
-﻿
-namespace SistemaComercial
+﻿namespace SistemaComercial
 {
     partial class Login
     {
@@ -73,14 +72,13 @@ namespace SistemaComercial
             this.btnInicioSesion.IconVisible = true;
             this.btnInicioSesion.IconZoom = 90D;
             this.btnInicioSesion.IsTab = false;
-            this.btnInicioSesion.Location = new System.Drawing.Point(487, 327);
-            this.btnInicioSesion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInicioSesion.Location = new System.Drawing.Point(365, 266);
             this.btnInicioSesion.Name = "btnInicioSesion";
             this.btnInicioSesion.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
             this.btnInicioSesion.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
             this.btnInicioSesion.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(25)))), ((int)(((byte)(74)))));
             this.btnInicioSesion.selected = false;
-            this.btnInicioSesion.Size = new System.Drawing.Size(263, 60);
+            this.btnInicioSesion.Size = new System.Drawing.Size(198, 49);
             this.btnInicioSesion.TabIndex = 1;
             this.btnInicioSesion.Text = "Iniciar Sesión";
             this.btnInicioSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -90,9 +88,10 @@ namespace SistemaComercial
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(490, 161);
+            this.pictureBox1.Location = new System.Drawing.Point(368, 131);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(250, 48);
+            this.pictureBox1.Size = new System.Drawing.Size(188, 39);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -103,17 +102,19 @@ namespace SistemaComercial
             this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.Color.White;
-            this.txtUsuario.Location = new System.Drawing.Point(502, 175);
+            this.txtUsuario.Location = new System.Drawing.Point(376, 142);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(235, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(176, 16);
             this.txtUsuario.TabIndex = 3;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(492, 257);
+            this.pictureBox2.Location = new System.Drawing.Point(369, 209);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(250, 48);
+            this.pictureBox2.Size = new System.Drawing.Size(188, 39);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -124,9 +125,10 @@ namespace SistemaComercial
             this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.ForeColor = System.Drawing.Color.White;
-            this.txtContraseña.Location = new System.Drawing.Point(502, 270);
+            this.txtContraseña.Location = new System.Drawing.Point(376, 219);
+            this.txtContraseña.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(235, 20);
+            this.txtContraseña.Size = new System.Drawing.Size(176, 16);
             this.txtContraseña.TabIndex = 5;
             this.txtContraseña.UseSystemPasswordChar = true;
             // 
@@ -136,10 +138,11 @@ namespace SistemaComercial
             this.btnSalir.ErrorImage = null;
             this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
             this.btnSalir.ImageActive = null;
-            this.btnSalir.Location = new System.Drawing.Point(12, 12);
+            this.btnSalir.Location = new System.Drawing.Point(9, 10);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            this.btnSalir.Size = new System.Drawing.Size(37, 42);
+            this.btnSalir.Padding = new System.Windows.Forms.Padding(0, 4, 0, 4);
+            this.btnSalir.Size = new System.Drawing.Size(28, 34);
             this.btnSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnSalir.TabIndex = 6;
             this.btnSalir.TabStop = false;
@@ -151,9 +154,10 @@ namespace SistemaComercial
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(481, 77);
+            this.label1.Location = new System.Drawing.Point(361, 63);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(250, 39);
+            this.label1.Size = new System.Drawing.Size(205, 33);
             this.label1.TabIndex = 7;
             this.label1.Text = "Inicio de sesión";
             // 
@@ -162,9 +166,10 @@ namespace SistemaComercial
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label2.Location = new System.Drawing.Point(486, 135);
+            this.label2.Location = new System.Drawing.Point(364, 110);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 23);
+            this.label2.Size = new System.Drawing.Size(60, 18);
             this.label2.TabIndex = 8;
             this.label2.Text = "Usuario";
             // 
@@ -173,18 +178,20 @@ namespace SistemaComercial
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Roboto", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.label3.Location = new System.Drawing.Point(488, 231);
+            this.label3.Location = new System.Drawing.Point(366, 188);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 23);
+            this.label3.Size = new System.Drawing.Size(85, 18);
             this.label3.TabIndex = 9;
             this.label3.Text = "Contraseña";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(24, 60);
+            this.pictureBox3.Location = new System.Drawing.Point(18, 49);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(440, 364);
+            this.pictureBox3.Size = new System.Drawing.Size(330, 296);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 12;
             this.pictureBox3.TabStop = false;
@@ -216,14 +223,14 @@ namespace SistemaComercial
             this.btnRegistrarse.IconVisible = true;
             this.btnRegistrarse.IconZoom = 90D;
             this.btnRegistrarse.IsTab = false;
-            this.btnRegistrarse.Location = new System.Drawing.Point(593, 2);
-            this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnRegistrarse.Location = new System.Drawing.Point(445, 2);
+            this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRegistrarse.Name = "btnRegistrarse";
             this.btnRegistrarse.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(25)))), ((int)(((byte)(74)))));
             this.btnRegistrarse.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
             this.btnRegistrarse.OnHoverTextColor = System.Drawing.Color.White;
             this.btnRegistrarse.selected = false;
-            this.btnRegistrarse.Size = new System.Drawing.Size(201, 70);
+            this.btnRegistrarse.Size = new System.Drawing.Size(151, 57);
             this.btnRegistrarse.TabIndex = 14;
             this.btnRegistrarse.Text = "Registrarse";
             this.btnRegistrarse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -238,19 +245,20 @@ namespace SistemaComercial
             this.linkLabel1.Font = new System.Drawing.Font("Roboto", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
             this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(176)))), ((int)(((byte)(242)))));
-            this.linkLabel1.Location = new System.Drawing.Point(532, 402);
+            this.linkLabel1.Location = new System.Drawing.Point(399, 327);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(170, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(136, 13);
             this.linkLabel1.TabIndex = 15;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "¿Olvidaste tu contraseña?";
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(25)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnRegistrarse);
             this.Controls.Add(this.pictureBox3);
@@ -264,6 +272,7 @@ namespace SistemaComercial
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnInicioSesion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
