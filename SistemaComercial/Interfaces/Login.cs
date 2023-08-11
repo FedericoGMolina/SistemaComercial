@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,9 +14,15 @@ namespace SistemaComercial
 {
     public partial class Login : Form
     {
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        private static extern Int32 SendMessage(IntPtr hWnd, int msg, int wParam, [MarshalAs(UnmanagedType.LPWStr)] string lParam);
+
         public Login()
         {
             InitializeComponent();
+            SendMessage(txtUsuarioLogin.Handle, 0x1501, 0, "Username");     // EM_SETCUEBANNER
+            SendMessage(txtContraseñaLogin.Handle, 0x1501, 0, "Password");     // EM_SETCUEBANNER
+            
         }
         public class Conexion
         {
@@ -24,7 +31,7 @@ namespace SistemaComercial
             private string username = "username = root";
             private string password = "password=";
             private string bd = "database=firstbdincsharp";
-            public  MySqlConnection getConexion()
+            public MySqlConnection getConexion()
             {
 
                 string cadenaConexion = servidor + ";" + puerto + ";" +
